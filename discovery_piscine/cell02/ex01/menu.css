@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.droptext{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 1000px;
+    padding-top: 500px;
+}
+.dropdown:hover .droptext{
+    display: block;
+}
